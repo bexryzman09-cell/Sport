@@ -1,34 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sport News</title>
-    <link rel="stylesheet" href="main.css">
-</head>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <main class="news-layout">
+        <section class="category-section" aria-labelledby="category-title">
+          <div class="section-header">
+            <h2 id="category-title">Category</h2>
+          </div>
 
-<body>
-    <header>
-        <div>
+          <div class="category-grid">
+            <article class="category-card card-text">
+              <span>FOOTBALL</span>
+            </article>
 
-        </div>
-    </header>
-    <main>
-        <section>
-            <div>
+            <article class="category-card card-image">
+              <img src="images/basketball.png" alt="Basketball" />
+            </article>
 
-            </div>
+            <article class="category-card card-text">
+              <span>CAR SPORT</span>
+            </article>
+
+            <article class="category-card card-image">
+              <img src="images/red-ping-pong-racket-sports-equipment%201.png" alt="Table Tennis" />
+            </article>
+
+            <article class="category-card card-image">
+              <img src="images/soccer-ball-green-grass-soccer-field-generative-ai%201.png" alt="Football" />
+            </article>
+
+            <article class="category-card card-text tall">
+              <span>BASKETBALL</span>
+            </article>
+
+            <article class="category-card card-image">
+              <img src="images/sport-car-is-drifting-track-with-smoke-around-it%201.png" alt="Car Sport" />
+            </article>
+
+            <article class="category-card card-text tall">
+              <span>TABLE TENNIS</span>
+            </article>
+          </div>
         </section>
-    </main>
-    <footer>
-        <div>
-            
-        </div>
-    </footer>
 
+        <section class="content-row" aria-label="News content">
+          <aside class="trending-news">
+            <h3>Trending News</h3>
+
+            <article class="news-item">
+              <img src="images/race-hose%201.png" alt="Horse race" />
+              <div class="news-copy">
+                <span class="meta">Horse Race • 02 Jul 2023</span>
+                <h4>6-Year-Old Horse Dies at Belmont Park After Race Injury</h4>
+                <br>
+                <p>NEW YORK—A 6-year-old horse died after being injured in a race at Belmont Park ahead of next week’s</p>
+              </div>
+            </article>
+
+            <article class="news-item">
+              <img src="images/cyclist-leads-actionfront-view-man-riding-bicycle-racing-road%201.png" alt="Basketball player" />
+              <div class="news-copy">
+                <span class="meta">Basketball • 15 Jul 2023</span>
+                <h4>Savilia Blunk Embraces Longer Season With World Cup</h4>
+                <br>
+                <p>Last year, Savilia Blunk took a more conservative approach to her first season as an Elite Class athlete, skipping some</p>
+              </div>
+            </article>
+
+            <article class="news-item">
+              <img src="images/empty-boxing-arena-waiting-new-round-d-render-illustration%201.png" alt="Boxing arena" />
+              <div class="news-copy">
+                <span class="meta">Boxing • 18 Jul 2023</span>
+                <h4>Ryan Garcia fighting again, this time on social media</h4>
+                <br>
+                <p>Boxing star Ryan Garcia and his promoter, Hall of Fame fighter Oscar De La Hoya, reignited their war of words via Twitter on</p>
+              </div>
+            </article>
+          </aside>
+
+          <article class="featured-news">
+            <img src="images/Post-1.png" alt="Cycling athlete" />
+            <div class="featured-overlay">
+              <span class="featured-tag">Cycling</span>
+              <div class="featured-meta">Debits — 03 June 2023</div>
+              <h2>
+                DISCOVER THE MEMBER<br />
+                BENEFITS OF USA CYCLING!
+              </h2>
+            </div>
+          </article>
+        </section>
+      </main>
+    </div>
 
     <script src="main.js"></script>
-</body>
-
+  </body>
 </html>
