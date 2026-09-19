@@ -1,98 +1,549 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sport News</title>
     <link rel="stylesheet" href="main.css" />
-  </head>
-  <body>
+    <link rel="shortcut icon" href="/imgs/logo-ico.jpg" type="image/x-icon">
+</head>
+
+<body>
+
     <div class="page-shell">
-      <main class="news-layout">
-        <section class="category-section" aria-labelledby="category-title">
-          <div class="section-header">
-            <h2 id="category-title">Category</h2>
-          </div>
+        <main class="news-layout">
 
-          <div class="category-grid">
-            <article class="category-card card-text">
-              <span>FOOTBALL</span>
-            </article>
+            <!-- Алишера код -->
+            <section class="category-section" aria-labelledby="category-title">
+                <div class="section-header">
+                    <h2 id="category-title">Category</h2>
+                </div>
 
-            <article class="category-card card-image">
-              <img src="images/basketball.png" alt="Basketball" />
-            </article>
+                <div class="category-grid">
+                    <article class="category-card card-text">
+                        <span>FOOTBALL</span>
+                    </article>
 
-            <article class="category-card card-text">
-              <span>CAR SPORT</span>
-            </article>
+                    <article class="category-card card-image">
+                        <img src="images/basketball.png" alt="Basketball" />
+                    </article>
 
-            <article class="category-card card-image">
-              <img src="images/red-ping-pong-racket-sports-equipment%201.png" alt="Table Tennis" />
-            </article>
+                    <article class="category-card card-text">
+                        <span>CAR SPORT</span>
+                    </article>
 
-            <article class="category-card card-image">
-              <img src="images/soccer-ball-green-grass-soccer-field-generative-ai%201.png" alt="Football" />
-            </article>
+                    <article class="category-card card-image">
+                        <img src="images/red-ping-pong-racket-sports-equipment%201.png" alt="Table Tennis" />
+                    </article>
 
-            <article class="category-card card-text tall">
-              <span>BASKETBALL</span>
-            </article>
+                    <article class="category-card card-image">
+                        <img src="images/soccer-ball-green-grass-soccer-field-generative-ai%201.png" alt="Football" />
+                    </article>
 
-            <article class="category-card card-image">
-              <img src="images/sport-car-is-drifting-track-with-smoke-around-it%201.png" alt="Car Sport" />
-            </article>
+                    <article class="category-card card-text tall">
+                        <span>BASKETBALL</span>
+                    </article>
 
-            <article class="category-card card-text tall">
-              <span>TABLE TENNIS</span>
-            </article>
-          </div>
-        </section>
+                    <article class="category-card card-image">
+                        <img src="images/sport-car-is-drifting-track-with-smoke-around-it%201.png" alt="Car Sport" />
+                    </article>
 
-        <section class="content-row" aria-label="News content">
-          <aside class="trending-news">
-            <h3>Trending News</h3>
+                    <article class="category-card card-text tall">
+                        <span>TABLE TENNIS</span>
+                    </article>
+                </div>
+            </section>
 
-            <article class="news-item">
-              <img src="images/race-hose%201.png" alt="Horse race" />
-              <div class="news-copy">
-                <span class="meta">Horse Race • 02 Jul 2023</span>
-                <h4>6-Year-Old Horse Dies at Belmont Park After Race Injury</h4>
-                <br>
-                <p>NEW YORK—A 6-year-old horse died after being injured in a race at Belmont Park ahead of next week’s</p>
-              </div>
-            </article>
+            <section class="content-row" aria-label="News content">
+                <aside class="trending-news">
+                    <h3>Trending News</h3>
 
-            <article class="news-item">
-              <img src="images/cyclist-leads-actionfront-view-man-riding-bicycle-racing-road%201.png" alt="Basketball player" />
-              <div class="news-copy">
-                <span class="meta">Basketball • 15 Jul 2023</span>
-                <h4>Savilia Blunk Embraces Longer Season With World Cup</h4>
-                <br>
-                <p>Last year, Savilia Blunk took a more conservative approach to her first season as an Elite Class athlete, skipping some</p>
-              </div>
-            </article>
+                    <article class="news-item">
+                        <img src="images/race-hose%201.png" alt="Horse race" />
+                        <div class="news-copy">
+                            <span class="meta">Horse Race • 02 Jul 2023</span>
+                            <h4>6-Year-Old Horse Dies at Belmont Park After Race Injury</h4>
+                            <p>NEW YORK—A 6-year-old horse died after being injured in a race at Belmont Park ahead of
+                                next week’s</p>
+                        </div>
+                    </article>
 
-            <article class="news-item">
-              <img src="images/empty-boxing-arena-waiting-new-round-d-render-illustration%201.png" alt="Boxing arena" />
-              <div class="news-copy">
-                <span class="meta">Boxing • 18 Jul 2023</span>
-                <h4>Ryan Garcia fighting again, this time on social media</h4>
-                <br>
-                <p>Boxing star Ryan Garcia and his promoter, Hall of Fame fighter Oscar De La Hoya, reignited their war of words via Twitter on</p>
-              </div>
-            </article>
-          </aside>
+                    <article class="news-item">
+                        <img src="images/cyclist-leads-actionfront-view-man-riding-bicycle-racing-road%201.png"
+                            alt="Cyclist racing on the road" />
+                        <div class="news-copy">
 
-          <article class="featured-news">
-            <img src="images/Post-1.png" alt="Cycling athlete" />
-            <div class="featured-overlay">
-            </div>
-          </article>
-        </section>
-      </main>
+                            <span class="meta">Basketball • 15 Jul 2023</span>
+                            <h4>Savilia Blunk Embraces Longer Season With World Cup</h4>
+                            <p>Last year, Savilia Blunk took a more conservative approach to her first season as an
+                                Elite Class athlete, skipping some</p>
+                        </div>
+                    </article>
+
+                    <article class="news-item">
+                        <img src="images/empty-boxing-arena-waiting-new-round-d-render-illustration%201.png"
+                            alt="Boxing arena" />
+                        <div class="news-copy">
+                            <span class="meta">Boxing • 18 Jul 2023</span>
+                            <h4>Ryan Garcia fighting again, this time on social media</h4>
+                            <p>Boxing star Ryan Garcia and his promoter, Hall of Fame fighter Oscar De La Hoya,
+                                reignited their war of words via Twitter on</p>
+                        </div>
+                    </article>
+                </aside>
+
+                <article class="featured-news">
+                    <img src="images/Post-1.png" alt="Cycling athlete" />
+                    <div class="featured-overlay">
+
+                        <span class="featured-tag">Cycling</span>
+                        <div class="featured-meta">Date • Author</div>
+                        <h2>Featured story headline</h2>
+                    </div>
+                </article>
+            </section>
+
+            <!-- бехруза код -->
+            <section class="news-section">
+                <div class="news-slider">
+
+                    <div class="slides">
+
+
+                        <article class="slide active">
+                            <img class="slide-image"
+                                src="https://images.unsplash.com/photo-1522778119026-d647f0596c20?auto=format&fit=crop&w=1600&q=80"
+                                alt="Football">
+
+                            <div class="slide-overlay"></div>
+
+                            <div class="slide-category">
+                                FOOTBALL
+                            </div>
+
+                            <div class="slide-content">
+                                <div class="slide-date">
+                                    19 SEPTEMBER 2026
+                                </div>
+
+                                <h2>
+                                    THE BIGGEST FOOTBALL NEWS OF THE WEEK
+                                </h2>
+
+                                <p>
+                                    The latest football news, important matches,
+                                    players and events from around the world.
+                                </p>
+                            </div>
+                        </article>
+
+
+                        <article class="slide">
+                            <img class="slide-image"
+                                src="https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=1600&q=80"
+                                alt="Sport">
+
+                            <div class="slide-overlay"></div>
+
+                            <div class="slide-category">
+                                SPORT
+                            </div>
+
+                            <div class="slide-content">
+                                <div class="slide-date">
+                                    18 SEPTEMBER 2026
+                                </div>
+
+                                <h2>
+                                    THE MOST IMPORTANT SPORTS EVENTS
+                                </h2>
+
+                                <p>
+                                    Discover the latest results, events and stories
+                                    from the world of sport.
+                                </p>
+                            </div>
+                        </article>
+
+
+
+                        <article class="slide">
+                            <img class="slide-image"
+                                src="https://images.unsplash.com/photo-1518609878373-06d740f60d8b?auto=format&fit=crop&w=1600&q=80"
+                                alt="Football stadium">
+
+                            <div class="slide-overlay"></div>
+
+                            <div class="slide-category">
+                                MATCH
+                            </div>
+
+                            <div class="slide-content">
+                                <div class="slide-date">
+                                    17 SEPTEMBER 2026
+                                </div>
+
+                                <h2>
+                                    EVERYTHING YOU NEED TO KNOW
+                                </h2>
+
+                                <p>
+                                    Match previews, important moments and
+                                    everything happening in football.
+                                </p>
+                            </div>
+                        </article>
+
+                    </div>
+
+
+                    <div class="slider-controls">
+
+                        <button class="slider-arrow slider-prev" type="button" aria-label="Previous slide">
+                            ←
+                        </button>
+
+                        <div class="slider-dots">
+                            <button class="slider-dot active" type="button" aria-label="Slide 1">1</button>
+                            <button class="slider-dot" type="button" aria-label="Slide 2">2</button>
+                            <button class="slider-dot" type="button" aria-label="Slide 3">3</button>
+                        </div>
+
+                        <button class="slider-arrow slider-next" type="button" aria-label="Next slide">
+                            →
+                        </button>
+
+                    </div>
+
+                </div>
+            </section>
+
+
+            <section class="recent-section">
+
+
+                <div class="recent-block" aria-labelledby="recent-title">
+                    <h2 class="recent-title" id="recent-title">Recent News</h2>
+
+                    <div class="recent-body">
+
+                        <article class="recent-featured">
+                            <img src="imgs/recent-main.svg" alt="Taekwondo athlete in a dojo" />
+                            <div class="recent-featured-caption">
+                                <span class="recent-featured-label">Day 5 Highlights</span>
+                                <h3>Baku 2023 World Taekwondo Championships</h3>
+                            </div>
+                        </article>
+
+                        <div class="recent-list">
+                            <article class="recent-item">
+                                <img src="imgs/recent-one.png" alt="Taekwondo fighter in a helmet" />
+                                <div class="recent-item-copy">
+                                    <span class="recent-meta">#Pollar, 87 - 12 July 2023</span>
+                                    <h4>Baku 2023 Taekwondo Championships</h4>
+                                </div>
+                            </article>
+
+                            <article class="recent-item">
+                                <img src="imgs/recent-two.png" alt="Golf ball on the green" />
+                                <div class="recent-item-copy">
+                                    <span class="recent-meta">#Golf, Toni - 20 July 2023</span>
+                                    <h4>Open Championship Royal Liverpool Golf</h4>
+                                </div>
+                            </article>
+
+                            <article class="recent-item">
+                                <img src="imgs/recent-therre.png" alt="Cricket ball on the grass" />
+                                <div class="recent-item-copy">
+                                    <span class="recent-meta">#Cricket, Toni - 27 July 2023</span>
+                                    <h4>Ireland Tour of England Test 2023</h4>
+                                </div>
+                            </article>
+
+                            <a class="recent-more" href="#">More <span aria-hidden="true">→</span></a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="recent-block" aria-labelledby="ranking-title">
+                    <h2 class="recent-title" id="ranking-title">Clubs Ranking</h2>
+
+                    <div class="ranking-panel">
+                        <table class="ranking-table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Club</th>
+                                    <th scope="col">GP</th>
+                                    <th scope="col">W</th>
+                                    <th scope="col">D</th>
+                                    <th scope="col">L</th>
+                                    <th scope="col">F</th>
+                                    <th scope="col">A</th>
+                                    <th scope="col">GD</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                <tr>
+                                    <td>
+                                        <div class="club">
+                                            <span class="rank">1</span>
+                                            <span class="club-logo" style="--logo:#6cabdd" aria-hidden="true">MC</span>
+                                            <span class="club-name">Manchester City</span>
+                                        </div>
+                                    </td>
+                                    <td>38</td>
+                                    <td>29</td>
+                                    <td>6</td>
+                                    <td>3</td>
+                                    <td>99</td>
+                                    <td>26</td>
+                                    <td>73</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="club">
+                                            <span class="rank">2</span>
+                                            <span class="club-logo" style="--logo:#c8102e" aria-hidden="true">LI</span>
+                                            <span class="club-name">Liverpool</span>
+                                        </div>
+                                    </td>
+                                    <td>38</td>
+                                    <td>28</td>
+                                    <td>8</td>
+                                    <td>2</td>
+                                    <td>94</td>
+                                    <td>26</td>
+                                    <td>68</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="club">
+                                            <span class="rank">3</span>
+                                            <span class="club-logo" style="--logo:#034694" aria-hidden="true">CH</span>
+                                            <span class="club-name">Chelsea</span>
+                                        </div>
+                                    </td>
+                                    <td>38</td>
+                                    <td>21</td>
+                                    <td>11</td>
+                                    <td>6</td>
+                                    <td>76</td>
+                                    <td>33</td>
+                                    <td>43</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="club">
+                                            <span class="rank">4</span>
+                                            <span class="club-logo" style="--logo:#132257" aria-hidden="true">TH</span>
+                                            <span class="club-name">Tottenham Hotspur</span>
+                                        </div>
+                                    </td>
+                                    <td>38</td>
+                                    <td>22</td>
+                                    <td>5</td>
+                                    <td>11</td>
+                                    <td>69</td>
+                                    <td>40</td>
+                                    <td>29</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="club">
+                                            <span class="rank">5</span>
+                                            <span class="club-logo" style="--logo:#ef0107" aria-hidden="true">AR</span>
+                                            <span class="club-name">Arsenal</span>
+                                        </div>
+                                    </td>
+                                    <td>38</td>
+                                    <td>22</td>
+                                    <td>3</td>
+                                    <td>13</td>
+                                    <td>61</td>
+                                    <td>48</td>
+                                    <td>13</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="club">
+                                            <span class="rank">6</span>
+                                            <span class="club-logo" style="--logo:#da291c" aria-hidden="true">MU</span>
+                                            <span class="club-name">Manchester United</span>
+                                        </div>
+                                    </td>
+                                    <td>38</td>
+                                    <td>16</td>
+                                    <td>10</td>
+                                    <td>12</td>
+                                    <td>57</td>
+                                    <td>57</td>
+                                    <td>0</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+            </section>
+
+
+            <section class="articles-section" aria-labelledby="articles-title">
+                <h2 class="recent-title" id="articles-title">Sports Article</h2>
+
+
+                <div class="article-track">
+
+                    <article class="article-card">
+                        <div class="article-media">
+                            <img src="imgs/article-one.png" alt="Basketball and sneakers on a court" />
+                            <span class="article-badge">Basketball</span>
+                        </div>
+                        <div class="article-author">
+                            <img src="imgs/author-one.png" alt="" />
+                            <span>Jake Will.</span>
+                        </div>
+                        <time class="article-date" datetime="2023-06-04">04 June 2023</time>
+                        <h3>5 Exercises Basketball Players Should Be Using To Develop Strength</h3>
+                        <p>This article was written by Jake Willhoite from Healthlisted.com Strength in basketball
+                            isn’t all about a massive body mass or ripped muscles.</p>
+                    </article>
+
+                    <article class="article-card">
+                        <div class="article-media">
+                            <img src="imgs/article-two.png" alt="Hockey player on the ice" />
+                            <span class="article-badge">Hockey</span>
+                        </div>
+                        <div class="article-author">
+                            <img src="imgs/author-two.png" alt="" />
+                            <span>Foxi.zacon</span>
+                        </div>
+                        <time class="article-date" datetime="2023-06-03">03 June 2023</time>
+                        <h3>Golden Knights out to fulfill owner's quest to win Stanley Cup in 6th year</h3>
+                        <p>The Vegas Golden Knights will play the Florida Panthers in the Stanley Cup Final
+                            beginning Saturday.</p>
+                    </article>
+
+                    <article class="article-card">
+                        <div class="article-media">
+                            <img src="imgs/article-there.png" alt="Shuttlecocks on a badminton racket" />
+                            <span class="article-badge">Badminton</span>
+                        </div>
+                        <div class="article-author">
+                            <img src="imgs/author-there.png" alt="" />
+                            <span>Bong Lozada</span>
+                        </div>
+                        <time class="article-date" datetime="2023-06-01">01 June 2023</time>
+                        <h3>‘Outdoor’ Badminton Gets Support From Local Federation</h3>
+                        <p>The Badminton World Federation is developing Air Badminton and the country’s governing
+                            body, Philippine Badminton Association.</p>
+                    </article>
+
+                </div>
+
+                <div class="article-controls">
+                    <button class="arrow-btn arrow-btn--prev articles-prev" type="button"
+                        aria-label="Previous articles">
+                        <svg viewBox="0 0 24 12" fill="none" stroke="currentColor" stroke-width="1.2"
+                            aria-hidden="true">
+                            <path d="M1 6h22M18 1l5 5-5 5" />
+                        </svg>
+                    </button>
+                    <button class="arrow-btn articles-next" type="button" aria-label="Next articles">
+                        <svg viewBox="0 0 24 12" fill="none" stroke="currentColor" stroke-width="1.2"
+                            aria-hidden="true">
+                            <path d="M1 6h22M18 1l5 5-5 5" />
+                        </svg>
+                    </button>
+                </div>
+            </section>
+
+            <!-- NEWSLETTER -->
+            <section class="newsletter" aria-labelledby="newsletter-title">
+                <div class="newsletter-copy">
+                    <h2 class="newsletter-title" id="newsletter-title">
+                        Newsletter
+                        <span>Subscription</span>
+                    </h2>
+
+                    <form class="newsletter-form" action="#" novalidate>
+                        <label class="visually-hidden" for="newsletter-email">Email address</label>
+                        <input id="newsletter-email" type="email" name="email" placeholder="your@email.com" required />
+                        <button type="submit" aria-label="Subscribe">
+                            <svg viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor"
+                                stroke-width="1.4" aria-hidden="true">
+                                <path d="M3.5 12.5l9-9M4.5 3.5h8v8" />
+                            </svg>
+                        </button>
+                    </form>
+                    <p class="newsletter-status" role="status" aria-live="polite"></p>
+                </div>
+
+
+                <img class="newsletter-image" src="imgs/newsletter-player.png" alt="" />
+            </section>
+
+        </main>
+
+        <!-- FOOTER -->
+        <footer class="site-footer">
+            <ul class="social" aria-label="Social networks">
+                <li>
+                    <a href="#" aria-label="Facebook">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 16 16">
+                            <title>facebook</title>
+                            <path fill="currentColor"
+                                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131c.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" aria-label="Instagram">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 16 16">
+                            <title>instagram</title>
+                            <path fill="currentColor"
+                                d="M8 0C5.829 0 5.556.01 4.703.048C3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7C.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297c.04.852.174 1.433.372 1.942c.205.526.478.972.923 1.417c.444.445.89.719 1.416.923c.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417c.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046c.78.035 1.204.166 1.486.275c.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485c.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598c-.28.11-.704.24-1.485.276c-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598a2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485c-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486c.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276c.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92a.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217a4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334a2.667 2.667 0 0 1 0-5.334" />
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" aria-label="Twitter">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 448 512">
+                            <title>square-twitter</title>
+                            <path fill="currentColor"
+                                d="M64 32C28.7 32 0 60.7 0 96v320c0 35.3 28.7 64 64 64h320c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64zm287.3 167.3c0 86.7-66 186.6-186.6 186.6c-37.2 0-71.7-10.8-100.7-29.4c5.3.6 10.4.8 15.8.8c30.7 0 58.9-10.4 81.4-28c-28.8-.6-53-19.5-61.3-45.5c10.1 1.5 19.2 1.5 29.6-1.2c-30-6.1-52.5-32.5-52.5-64.4v-.8c8.7 4.9 18.9 7.9 29.6 8.3c-9-6-16.4-14.1-21.5-23.6s-7.8-20.2-7.7-31c0-12.2 3.2-23.4 8.9-33.1c32.3 39.8 80.8 65.8 135.2 68.6c-9.3-44.5 24-80.6 64-80.6c18.9 0 35.9 7.9 47.9 20.7c14.8-2.8 29-8.3 41.6-15.8c-4.9 15.2-15.2 28-28.8 36.1c13.2-1.4 26-5.1 37.8-10.2c-8.9 13.1-20.1 24.7-32.9 34c.2 2.8.2 5.7.2 8.5" />
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+
+            <nav class="pager" aria-label="Pagination">
+                <button class="arrow-btn arrow-btn--prev pager-prev" type="button" aria-label="Previous page">
+                    <svg viewBox="0 0 24 12" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true">
+                        <path d="M1 6h22M18 1l5 5-5 5" />
+                    </svg>
+                </button>
+
+                <div class="pager-nums">
+                    <button class="pager-num is-active" type="button" aria-current="page">1</button>
+                    <button class="pager-num" type="button">2</button>
+                    <button class="pager-num" type="button">3</button>
+                    <button class="pager-num" type="button">4</button>
+                </div>
+
+                <button class="arrow-btn pager-next" type="button" aria-label="Next page">
+                    <svg viewBox="0 0 24 12" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true">
+                        <path d="M1 6h22M18 1l5 5-5 5" />
+                    </svg>
+                </button>
+            </nav>
+        </footer>
     </div>
 
     <script src="main.js"></script>
-  </body>
+    <script src="extras.js"></script>
+</body>
+
 </html>
